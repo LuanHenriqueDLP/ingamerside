@@ -1,0 +1,72 @@
+﻿@model Cadastro
+
+@{
+    ViewData["Title"] = "Edite seus dados";
+}
+
+<div class="user-info">
+    <h1>Minha Conta</h1>
+<br>
+    <h2>Informações Pessoais</h2>
+<br>
+    <div class="user-info-form">
+        <form method="post" asp-action="Edicao" id="script_editadmin">
+            <div class="row-flex-form">
+                <div class="form-column">
+                    <div class="padding">
+                        <label asp-for="Nome">Nome:</label>
+                        <input type="text" class="borda-redonda input-form dark-blue-innershadow input-def" asp-for="Nome" id="editA1">
+                    </div>
+
+                    <div class="padding">
+                        <label style="margin-left: 10px;" asp-for="Email">Email:</label>
+                        <input type="email" class="borda-redonda input-form dark-blue-innershadow input-def" asp-for="Email" id="editA2">
+                    </div>
+
+                    <div class="padding">
+                        <label asp-for="Senha">*Senha:</label>
+                        <input type="password" class="borda-redonda input-form dark-blue-innershadow input-def" asp-for="Senha" id="editA3">
+                    </div>
+                </div>
+
+                <input type="hidden" asp-for="idCadastro">
+
+                <div>
+                    <input type="submit" class="dark-blue-innershadow" value="ATUALIZAR">
+                </div>
+            </div>
+        </form>
+            <p class="aviso-senha">* Caso queira manter a mesma senha OU criar uma senha nova, basta digitá-la (seja a atual ou a nova).<br>Caso você crie uma nova senha, será redirecionado para a tela de login, para entrar com a nova senha cadastrada.</p>
+    </div>
+</div>
+
+    <script>
+        document.getElementById("script_editadmin").addEventListener("submit", function validateEditAdmin(e)
+        {
+            var nomeAdm = document.getElementById("editA1").value;
+            var emailAdm = document.getElementById("editA2").value;
+            var passAdm = document.getElementById("editA3").value;
+            var errors = "";
+
+            if (nomeAdm.trim() === "")
+            {
+                errors = errors + "Nome.\n";
+            }
+            
+            if (emailAdm.trim() === "")
+            {
+                errors = errors + "Email.\n";
+            }
+
+            if (passAdm.trim() === "")
+            {
+                errors = errors + "Senha.\n";
+            }
+            
+            if (errors != "")
+            {
+                alert("Existem campos obrigatórios que não foram preenchidos:\n\n" + errors);
+                e.preventDefault();
+            }
+        });
+    </script>

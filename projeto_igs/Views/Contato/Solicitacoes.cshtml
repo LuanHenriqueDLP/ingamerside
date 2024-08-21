@@ -1,0 +1,80 @@
+﻿@model List<Solicitacao>
+
+@{
+    ViewData["Title"] = "Solicitações";
+}
+
+<div class="user-info">
+<h1>Solicitações</h1>
+
+    <div class="table-sol">
+        <table>
+            <div class="border">
+                <thead>
+                    <tr>
+                        <th>Nº</th>
+                        <th>Codigo</th>
+                        <th>Cadastro</th>
+                        <th>Descrição</th>
+                        <th><img class="img-pattern" src="~/imagens/delete.png"></th>
+                    </tr>
+                </thead>
+            </div>
+            
+        @foreach (Solicitacao s in Model)
+            {
+            <tbody>
+                <tr>
+                    <td>@s.idSolicitacao</td>
+                    <td>@s.Codigo</td>
+                    <td><a href="/Usuario/Usuarios" class="link-style">@s.idCadastro</a></td>
+                    <td>
+                        <button class="openModal" id="openModal">
+                            <img class="img-pattern" title="Expandir" src="~/imagens/ext_link.png">
+                        </button>
+                        <div class="modal-table idModal" id="idModal">
+                                <div class="modal-content">
+                                    @s.txtBox
+                                <br><br><br>
+                                <div class="modal-footer">
+                                    <button class="modal-close-btn closeModal" id="closeModal">FECHAR</button>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td><a href="/Contato/Exclusao?idSolicitacao=@s.idSolicitacao"><img class="img-pattern" title="Excluir" src="~/imagens/delete.png"></a></td>
+                </tr>
+            </tbody>
+            }
+        </table>
+    </div>
+</div>
+
+<script>
+        var modais = document.querySelectorAll(".idModal");
+        var openBtns = document.querySelectorAll(".openModal");
+        var closeBtns = document.querySelectorAll(".closeModal");
+
+        openBtns.forEach(function (button, index) {
+            button.addEventListener("click", function () {
+
+
+                modais[index].style.display = "block";
+            });
+        });
+
+        closeBtns.forEach(function (closeButton, index) {
+            closeButton.addEventListener("click", function () {
+                modais[index].style.display = "none";
+            });
+        });
+
+        window.addEventListener("click", function (event) {
+            modals.forEach(function (modal) {
+                if (event.target == modal)
+                {
+                    modal.style.display = "none";
+                }
+            });
+        });
+    </script>

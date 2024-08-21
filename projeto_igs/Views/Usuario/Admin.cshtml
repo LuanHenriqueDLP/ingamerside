@@ -1,0 +1,17 @@
+﻿@model Cadastro
+
+@{
+    ViewData["Title"] = "Login";
+}
+
+<div class="padding-form user-info">
+        <div class="bold">Desconectar
+<br>
+        <a asp-controller="Usuario" asp-action="Logout"><input class="margin-y dark-blue-innershadow" type="button" value="LOGOUT"></a>
+        </div>
+<br>
+        <div class="bold">Cadastrar um novo administrador
+<br>
+        <a href="/Usuario/CadastroAdmin"><input class="margin-y dark-blue-innershadow" type="button" value="CADASTRAR ADMIN"></a>
+        </div>
+</div>

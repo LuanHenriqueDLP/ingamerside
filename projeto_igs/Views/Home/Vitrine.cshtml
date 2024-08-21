@@ -1,0 +1,36 @@
+﻿@model List<Produto>
+
+@{
+    ViewData["Title"] = "Produtos";
+}
+
+<div class="main-70">
+    <div class="user-info">
+        <div class="padding">
+            <h1 class="txt-center">Produtos</h1>
+            <br>
+
+            <p>Ficou interessado em adquirir os nossos produtos? Faça o login no site e acesse a aba "Contato" para nos mandar o seu pedido!</p>
+            <br><br>
+
+            @if (Model.Count==0)
+            {
+                <p>@ViewBag.NaoEncontrado</p>
+            }
+            else
+            {
+                <div class="product">
+                    @foreach (Produto p in Model)
+                    {
+                        <div class="product1">
+                            <img class="img_produto1" src="~/imagens_produtos/default-612x612.jpg">
+                            <h3>@p.Codigo - @p.NomePrd</h3>
+                            <p>@p.DescPrd</p>
+                            <p>R$@p.Preco</p>
+                        </div>
+                    }
+                </div>
+            }
+        </div>
+    </div>
+</div>

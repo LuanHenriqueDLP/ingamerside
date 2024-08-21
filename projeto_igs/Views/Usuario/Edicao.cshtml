@@ -1,0 +1,154 @@
+﻿@model Cadastro
+
+@{
+    ViewData["Title"] = "Edite seus dados";
+}
+
+<div class="user-info">
+    <h1>Minha Conta</h1>
+<br>
+    <h2>Informações Pessoais</h2>
+<br>
+        <form method="post" class="user-info-form" asp-action="Edicao" id="script_edituser">
+            <div class="user3-div">
+                <label asp-for="Nome">Nome:</label>
+                <input type="text" class="borda-redonda input-form dark-blue-innershadow input-def" asp-for="Nome" id="editU1">
+                
+                <label asp-for="Email">Email:</label>
+                <input type="email" class="borda-redonda input-form dark-blue-innershadow input-def" asp-for="Email" id="editU2">
+
+                <label asp-for="Senha">*Senha:</label>
+                <input type="password" class="borda-redonda input-form dark-blue-innershadow input-def" asp-for="Senha" id="editU3">
+            </div>
+
+            <div class="user3-div">
+                <label asp-for="Endereco">Endereço:</label>
+                <input asp-for="Endereco" class="borda-redonda input-form dark-blue-innershadow input-def" id="editU4">
+
+                <label asp-for="Numero">Nº:</label>
+                <input asp-for="Numero" class="borda-redonda input-form dark-blue-innershadow input-def" id="editU5">
+
+                <label asp-for="Bairro">Bairro:</label>
+                <input asp-for="Bairro" class="borda-redonda input-form dark-blue-innershadow input-def" id="editU6">
+            </div>
+
+            <div class="user2-div">
+                <label asp-for="Complemento">Complemento:</label>
+                <input asp-for="Complemento" class="borda-redonda input-form dark-blue-innershadow input-def">
+
+                <label asp-for="CEP">CEP:</label>
+                <input asp-for="CEP" class="borda-redonda input-form dark-blue-innershadow input-def" id="editU7" pattern="[0-9]{5}-[0-9]{3}" placeholder="00000-000">
+            </div>
+
+            <div class="user2-div">
+                <label asp-for="Cidade">Cidade:</label>
+                <input asp-for="Cidade" class="borda-redonda input-form dark-blue-innershadow input-def" id="editU8">
+
+                <label asp-for="Estado">Estado:</label>
+                <select asp-for="Estado" class="borda-redonda input-form dark-blue-innershadow input-def" id="editU9">
+                    <option value="">Escolha</option>
+                        <option value="Acre">AC</option>
+                        <option value="Alagoas">AL</option>
+                        <option value="Amazonas">AM</option>
+                        <option value="Amapa">AP</option>
+                        <option value="Bahia">BA</option>
+                        <option value="Ceara">CE</option>
+                        <option value="Distrito Federal">DF</option>
+                        <option value="Espirito Santo">ES</option>
+                        <option value="Goias">GO</option>
+                        <option value="Maranhao">MA</option>
+                        <option value="Minas Gerais">MG</option>
+                        <option value="Mato Grosso do Sul">MS</option>
+                        <option value="Mato Grosso">MT</option>
+                        <option value="Para">PA</option>
+                        <option value="Paraiba">PB</option>
+                        <option value="Pernambuco">PE</option>
+                        <option value="Piaui">PI</option>
+                        <option value="Parana">PR</option>
+                        <option value="Rio de Janeiro">RJ</option>
+                        <option value="Rio Grande do Norte">RN</option>
+                        <option value="Rondonia">RO</option>
+                        <option value="Roraima">RR</option>
+                        <option value="Rio Grande do Sul">RS</option>
+                        <option value="Santa Catarina">SC</option>
+                        <option value="Sergipe">SE</option>
+                        <option value="Sao Paulo">SP</option>
+                        <option value="Tocantins">TO</option>
+                </select>
+            </div>
+            
+            <input type="hidden" asp-for="idCadastro">
+
+            <p class="aviso-senha1">* Caso queira manter a mesma senha OU criar uma senha nova, basta digitá-la (seja a atual ou a nova).<br>Caso você crie uma nova senha, será redirecionado para a tela de login, para entrar com a nova senha cadastrada.</p>
+
+            <input type="submit" class="margin-y dark-blue-innershadow" value="ATUALIZAR"> 
+        </form>
+    </div>
+</div>
+
+    <script>
+        document.getElementById("script_edituser").addEventListener("submit", function validateEditUser(e)
+        {
+            var nomeUser = document.getElementById("editU1").value;
+            var emailUser = document.getElementById("editU2").value;
+            var passUser = document.getElementById("editU3").value;
+            var endUser = document.getElementById("editU4").value;
+            var numUser = document.getElementById("editU5").value;
+            var bairUser = document.getElementById("editU6").value;
+            var cepUser = document.getElementById("editU7").value;
+            var cidUser = document.getElementById("editU8").value;
+            var estUser = document.getElementById("editU9").value;
+            var errors = "";
+
+            if (nomeUser.trim() === "")
+            {
+                errors = errors + "Nome.\n";
+            }
+
+            if (emailUser.trim() === "")
+            {
+                errors = errors + "Email.\n";
+            }
+
+            if (passUser.trim() === "")
+            {
+                errors = errors + "Senha.\n";
+            }
+            
+            if (endUser.trim() === "")
+            {
+                errors = errors + "Endereço.\n";
+            }
+
+            if (numUser.trim() === "")
+            {
+                errors = errors + "Número.\n";
+            }
+
+            if (bairUser.trim() === "")
+            {
+                errors = errors + "Bairro.\n";
+            }
+            
+            if (cepUser.trim() === "")
+            {
+                errors = errors + "CEP.\n";
+            }
+
+            if (cidUser.trim() === "")
+            {
+                errors = errors + "Cidade.\n";
+            }
+
+            if (estUser.trim() === "")
+            {
+                errors = errors + "Estado.\n";
+            }
+            
+            if (errors != "")
+            {
+                alert("Existem campos obrigatórios que não foram preenchidos:\n\n" + errors);
+                e.preventDefault();
+            }
+        });
+    </script>

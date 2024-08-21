@@ -1,0 +1,49 @@
+﻿@model Produto
+
+@{
+    ViewData["Title"] = "Adicionar produto";
+}
+
+<div class="user-info">
+
+<h1>Adicionar Produto</h1>
+
+    <div class="user-info-form">
+        <form method="post" id="script_addprod">
+            <div class="column-flex-form">
+                    <div class="padding">
+                        <img class="img_produto" src="~/imagens_produtos/default-612x612.jpg">
+                    </div>
+
+                <div class="form-column">
+                    <div class="padding">
+                        <label asp-for="Codigo">Código do produto:</label>
+                        <input class="borda-redonda input-form dark-blue-innershadow" id="addp1" asp-for="Codigo">
+                    </div>
+                    
+                    <div class="padding">
+                        <label asp-for="NomePrd">Nome do produto:</label>
+                        <input class="borda-redonda input-form dark-blue-innershadow" id="addp2" asp-for="NomePrd">
+                    </div>
+
+                    <div class="padding">
+                        <label asp-for="DescPrd">Descrição do produto:</label>
+                        <input class="borda-redonda input-form dark-blue-innershadow" id="addp3" asp-for="DescPrd">
+                    </div>
+
+                    <div class="padding">
+                        <label asp-for="Preco">Preço do produto:</label>
+                        R$ <input class="borda-redonda input-form dark-blue-innershadow" id="addp4" asp-for="Preco" placeholder="0.000,00">
+                    </div>
+                </div>
+            
+                    <input type="hidden" asp-for="idCadastro">
+                    <div>
+                        <input type="submit" class="margin-y dark-blue-innershadow" value="ADICIONAR PRODUTO">
+                    </div>
+            </div>
+        </form>
+
+        <p class="margin-y txt-center"><a class="link-style" asp-action="Produtos">Voltar à pagina de produtos.</a>
+    </div>
+</div>

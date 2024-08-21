@@ -1,0 +1,100 @@
+2023-11-08T17:33:58.4848082-03:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2023-11-08T17:33:58.4878149-03:00  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2023-11-08T17:33:58.4879652-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-11-08T17:33:58.4879917-03:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-11-08T17:33:58.4880042-03:00  [INF] Content root path: "C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5" (b5d60022)
+2023-11-08T17:35:50.8217978-03:00 0HMV0J93OSBDB:00000025 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+MySqlConnector.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+   at MySqlConnector.Core.ServerSession.OpenTcpSocketAsync(ConnectionSettings cs, ILoadBalancer loadBalancer, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 1151
+   at MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, MySqlConnection connection, Int32 startTickCount, ILoadBalancer loadBalancer, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 438
+   at MySqlConnector.Core.ConnectionPool.ConnectSessionAsync(MySqlConnection connection, String logMessage, Int32 startTickCount, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 403
+   at MySqlConnector.Core.ConnectionPool.ConnectSessionAsync(MySqlConnection connection, String logMessage, Int32 startTickCount, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 408
+   at MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, Int32 startTickCount, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 98
+   at MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, Int32 startTickCount, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 128
+   at MySqlConnector.MySqlConnection.CreateSessionAsync(ConnectionPool pool, Int32 startTickCount, Activity activity, Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 929
+   at MySqlConnector.MySqlConnection.OpenAsync(Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 423
+   at MySqlConnector.MySqlConnection.Open() in /_/src/MySqlConnector/MySqlConnection.cs:line 382
+   at projeto_etapa4.Models.ProdutoRepository.Listar() in C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\Models\ProdutoRepository.cs:line 68
+   at projeto_etapa4.Controllers.HomeController.Vitrine() in C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\Controllers\HomeController.cs:line 40
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-11-08T17:35:51.4552911-03:00 0HMV0J93OSBDB:00000027 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+MySqlConnector.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+   at MySqlConnector.Core.ServerSession.OpenTcpSocketAsync(ConnectionSettings cs, ILoadBalancer loadBalancer, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 1151
+   at MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, MySqlConnection connection, Int32 startTickCount, ILoadBalancer loadBalancer, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 438
+   at MySqlConnector.Core.ConnectionPool.ConnectSessionAsync(MySqlConnection connection, String logMessage, Int32 startTickCount, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 403
+   at MySqlConnector.Core.ConnectionPool.ConnectSessionAsync(MySqlConnection connection, String logMessage, Int32 startTickCount, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 408
+   at MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, Int32 startTickCount, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 98
+   at MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, Int32 startTickCount, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 128
+   at MySqlConnector.MySqlConnection.CreateSessionAsync(ConnectionPool pool, Int32 startTickCount, Activity activity, Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 929
+   at MySqlConnector.MySqlConnection.OpenAsync(Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 423
+   at MySqlConnector.MySqlConnection.Open() in /_/src/MySqlConnector/MySqlConnection.cs:line 382
+   at projeto_etapa4.Models.ProdutoRepository.Listar() in C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\Models\ProdutoRepository.cs:line 68
+   at projeto_etapa4.Controllers.HomeController.Vitrine() in C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\Controllers\HomeController.cs:line 40
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-11-08T17:39:13.5998298-03:00  [INF] Application is shutting down... (90f52c38)
+2023-11-08T17:39:16.7511024-03:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2023-11-08T17:39:16.7547194-03:00  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2023-11-08T17:39:16.7548792-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-11-08T17:39:16.7549007-03:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-11-08T17:39:16.7549182-03:00  [INF] Content root path: "C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5" (b5d60022)
+2023-11-08T17:40:04.0840495-03:00  [INF] Application is shutting down... (90f52c38)
+2023-11-08T17:40:07.6258045-03:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2023-11-08T17:40:07.6300664-03:00  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2023-11-08T17:40:07.6302217-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-11-08T17:40:07.6302444-03:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-11-08T17:40:07.6302563-03:00  [INF] Content root path: "C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5" (b5d60022)
+2023-11-08T17:41:06.9998035-03:00  [INF] Application is shutting down... (90f52c38)
+2023-11-08T17:41:10.4466286-03:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2023-11-08T17:41:10.4494300-03:00  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2023-11-08T17:41:10.4495529-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-11-08T17:41:10.4495725-03:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-11-08T17:41:10.4495892-03:00  [INF] Content root path: "C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5" (b5d60022)
+2023-11-08T17:43:18.6915961-03:00  [INF] Application is shutting down... (90f52c38)
+2023-11-08T17:43:22.0012446-03:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2023-11-08T17:43:22.0045159-03:00  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2023-11-08T17:43:22.0046475-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-11-08T17:43:22.0046699-03:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-11-08T17:43:22.0046876-03:00  [INF] Content root path: "C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5" (b5d60022)
+2023-11-08T17:50:00.9133517-03:00  [INF] Application is shutting down... (90f52c38)

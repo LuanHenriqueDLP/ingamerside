@@ -1,0 +1,69 @@
+﻿@model Cadastro
+
+@{
+    ViewData["Title"] = "Cadastre-se";
+}
+
+<div class="user-info">
+    <h2>Registre um novo <br>administrador</h2>
+
+    <div class="user-info-form">
+        <form method="post" asp-action="CadastrarA" id="script_newadmin">
+            <div class="padding-form row-flex-form">
+                <div class="form-column">
+                    <div class="padding">
+                        <label asp-for="Nome">Nome:</label>
+                        <input type="text" class="borda-redonda input-form dark-blue-innershadow" asp-for="Nome" id="admin1">
+                    </div>
+
+                    <div class="padding">
+                        <label asp-for="Senha">Senha:</label>
+                        <input type="password" class="borda-redonda input-form dark-blue-innershadow" asp-for="Senha" id="admin2">
+                    </div>
+
+                    <div class="padding">
+                        <label asp-for="Email">Email:</label>
+                        <input class="borda-redonda input-form dark-blue-innershadow" type="email" asp-for="Email" id="admin3">
+                    </div>
+                </div>
+
+                <span class="viewbag padding">@ViewBag.emailDup</span>
+
+                <input type="hidden" asp-for="Tipo" value="Admin">
+
+                <input class="dark-blue-innershadow" type="submit" value="CADASTRAR">
+            </div>
+        </form>
+    </div>
+</div>
+
+    <script>
+        document.getElementById("script_newadmin").addEventListener("submit", function validateNewAdmin(e)
+        {
+            var nomeAdm = document.getElementById("admin1").value;
+            var passAdm = document.getElementById("admin2").value;
+            var emailAdm = document.getElementById("admin3").value;
+            var errors = "";
+
+            if (nomeAdm.trim() === "")
+            {
+                errors = errors + "Nome do novo administrador.\n";
+            }
+
+            if (passAdm.trim() === "")
+            {
+                errors = errors + "Senha do novo administrador.\n";
+            }
+
+            if (emailAdm.trim() === "")
+            {
+                errors = errors + "Email do novo administrador.\n";
+            }
+            
+            if (errors != "")
+            {
+                alert("Existem campos obrigatórios que não foram preenchidos:\n\n" + errors);
+                e.preventDefault();
+            }
+        });
+    </script>

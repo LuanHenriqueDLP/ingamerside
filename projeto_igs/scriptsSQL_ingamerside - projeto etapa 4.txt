@@ -1,0 +1,36 @@
+CREATE DATABASE ingamerside;
+
+CREATE TABLE Cadastro (
+  idCadastro INT PRIMARY KEY AUTO_INCREMENT,
+  Nome VARCHAR(30) NOT NULL,
+  Senha VARCHAR(30) NOT NULL,
+  Email VARCHAR(50) NOT NULL UNIQUE,
+  Endereco VARCHAR(50),
+  Numero INT(6),
+  Complemento VARCHAR(30),
+  Bairro VARCHAR(30),
+  CEP VARCHAR(10),
+  Cidade VARCHAR(30),
+  Estado VARCHAR(20),
+  Tipo VARCHAR(7) NOT NULL
+);
+
+CREATE TABLE Produto (
+  idProduto INT PRIMARY KEY AUTO_INCREMENT,
+  Codigo INT(6) NOT NULL,
+  NomePrd VARCHAR(50) NOT NULL,
+  DescPrd VARCHAR(70) NOT NULL,
+  Preco DOUBLE NOT NULL,
+  idCadastro INT
+);
+
+CREATE TABLE Solicitacao (
+  idSolicitacao INT PRIMARY KEY AUTO_INCREMENT,
+  Codigo INT(6) NOT NULL,
+  txtBox VARCHAR(280) NOT NULL,
+  idCadastro INT,
+  FOREIGN KEY (idCadastro) REFERENCES Cadastro (idCadastro)
+);
+
+INSERT INTO Cadastro (Nome, Senha, Email, Tipo) VALUES ("Admin1", "admin123", "admin@mail.com", "Admin");
+INSERT INTO Cadastro (Nome, Senha, Email, Tipo) VALUES ("User1", "user123", "user@mail.com", "Usuario");

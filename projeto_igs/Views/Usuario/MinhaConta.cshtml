@@ -1,0 +1,56 @@
+﻿@model List<Cadastro>
+
+@{
+    ViewData["Title"] = "Minha conta";
+}
+
+<div class="user-info">
+    <h1>Minha Conta</h1>
+<br>
+    <h2>Informações Pessoais</h2>
+<br>
+    @foreach (Cadastro c in Model)
+    {
+        <div class="user-info-form">
+            <div class="user3-div">
+                <label asp-for="@c.Nome">Nome:</label>
+                <input type="text" class="borda-redonda input-form dark-blue-innershadow nomeU" asp-for="@c.Nome" disabled>
+                
+                <label style="margin-left: 10px;" asp-for="@c.Email">Email:</label>
+                <input type="email" class="borda-redonda input-form dark-blue-innershadow emailU" asp-for="@c.Email" disabled>
+
+                <label style="margin-left: 10px;" asp-for="@c.Senha">Senha:</label>
+                <input type="password" class="borda-redonda input-form dark-blue-innershadow senhaU" asp-for="@c.Senha" disabled>
+            </div>
+
+            <div class="user3-div">
+                <label asp-for="@c.Endereco">Endereço:</label>
+                <input asp-for="@c.Endereco" class="borda-redonda input-form dark-blue-innershadow endU" disabled>
+
+                <label style="margin-left: 10px;" asp-for="@c.Numero">Nº:</label>
+                <input asp-for="@c.Numero" class="borda-redonda input-form dark-blue-innershadow numU" disabled>
+
+                <label style="margin-left: 9px;" asp-for="@c.Bairro">Bairro:</label>
+                <input asp-for="@c.Bairro" class="borda-redonda input-form dark-blue-innershadow bairrU" disabled>
+            </div>
+
+            <div class="user2-div">
+                <label asp-for="@c.Complemento">Complemento:</label>
+                <input asp-for="@c.Complemento" class="borda-redonda input-form dark-blue-innershadow complU" disabled>
+
+                <label style="margin-left: 10px;" asp-for="@c.CEP">CEP:</label>
+                <input asp-for="@c.CEP" class="borda-redonda input-form dark-blue-innershadow CEPU" pattern="[0-9]{5}-[0-9]{3}" placeholder="00000-000" disabled>
+            </div>
+
+            <div class="user2-div">
+                <label style="margin-left: 10px;" asp-for="@c.Cidade">Cidade:</label>
+                <input asp-for="@c.Cidade" class="borda-redonda input-form dark-blue-innershadow cidU" disabled>
+            
+                <label style="margin-left: 12px;" asp-for="@c.Estado">Estado:</label>
+                <input asp-for="@c.Estado" class="borda-redonda input-form dark-blue-innershadow estU" disabled>
+            </div>
+
+            <a href="/Usuario/Edicao?idCadastro=@c.idCadastro"><input type="button" class="margin-y dark-blue-innershadow" value="EDITAR"></a>
+        </div>
+    }
+</div>

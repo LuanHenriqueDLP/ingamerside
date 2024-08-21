@@ -1,0 +1,85 @@
+﻿@model Produto
+
+@{
+    ViewData["Title"] = "Editar produto";
+}
+
+<div class="user-info">
+
+<h1>Atualizar Produto</h1>
+
+    <div class="user-info-form">
+        <form method="post" asp-action="Edicao" id="script_editprod">
+            <div class="column-flex-form">
+                    <div class="padding">
+                        <img class="img_produto" src="~/imagens_produtos/default-612x612.jpg">
+                    </div>
+
+                <div class="form-column">
+                    <div class="padding">
+                        <label asp-for="Codigo">Código do produto:</label>
+                        <input class="borda-redonda input-form dark-blue-innershadow" id="editp1" asp-for="Codigo">
+                    </div>
+                    
+                    <div class="padding">
+                        <label asp-for="NomePrd">Nome do produto:</label>
+                        <input class="borda-redonda input-form dark-blue-innershadow" id="editp2" asp-for="NomePrd">
+                    </div>
+
+                    <div class="padding">
+                        <label asp-for="DescPrd">Descrição do produto:</label>
+                        <input class="borda-redonda input-form dark-blue-innershadow" id="editp3" asp-for="DescPrd">
+                    </div>
+
+                    <div class="padding">
+                        <label asp-for="Preco">Preço do produto:</label>
+                        R$ <input class="borda-redonda input-form dark-blue-innershadow" id="editp4" asp-for="Preco" placeholder="0.000,00">
+                    </div>
+                </div>
+
+                    <input type="hidden" asp-for="idProduto">
+                    <input type="hidden" asp-for="idCadastro">
+                    <div>
+                        <input type="submit" class="margin-y dark-blue-innershadow" value="ATUALIZAR PRODUTO">
+                    </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+    <script>
+        document.getElementById("script_editprod").addEventListener("submit", function validateEdit(e)
+        {
+            var codEdit = document.getElementById("editp1").value;
+            var nomeEdit = document.getElementById("editp2").value;
+            var descEdit = document.getElementById("editp3").value;
+            var precoEdit = document.getElementById("editp4").value;
+            var errors = "";
+
+            if (codEdit.trim() === "")
+            {
+                errors = errors + "Código do produto.\n";
+            }
+
+            if (nomeEdit.trim() === "")
+            {
+                errors = errors + "Nome do produto.\n";
+            }
+
+            if (descEdit.trim() === "")
+            {
+                errors = errors + "Descrição do produto.\n";
+            }
+
+            if (precoEdit.trim() === "")
+            {
+                errors = errors + "Preço do produto.\n";
+            }
+
+            if (errors != "")
+            {
+                alert("Existem campos obrigatórios que não foram preenchidos:\n\n" + errors);
+                e.preventDefault();
+            }
+        });
+    </script>

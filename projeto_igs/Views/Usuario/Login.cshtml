@@ -1,0 +1,38 @@
+﻿@* ESSA PAGINA VAI CONTER JAVASCRIPT *@
+
+@model Cadastro
+
+@{
+    ViewData["Title"] = "Login";
+}
+
+<div class="user-info">
+
+    <h2 class="login-title">Faça seu login:</h2>
+        <div class="user-info-form">
+            <form method="post" asp-action="Login">
+                <div class="row-flex-form">
+                    <div class="form-column">
+                        <div class="padding">
+                            <label asp-for="Email">Email:</label>
+                            <input class="borda-redonda input-form dark-blue-innershadow input-def" type="text" asp-for="Email">
+                        </div>
+
+                        <div class="padding">
+                            <label asp-for="Senha">Senha:</label>
+                            <input class="borda-redonda input-form dark-blue-innershadow input-def" type="password" asp-for="Senha">
+                        </div>
+                    </div>
+
+                    <div>
+                        <input class="dark-blue-innershadow" style="margin-left: 20px;" type="submit" value="ENTRAR">
+                    </div>
+                </div>
+            </form>
+                <div class="margin-y">Ainda não possui uma conta? <a href="/Usuario/CadastroUser"><br>
+                <input class="margin-y dark-blue-innershadow" type="submit" value="CADASTRE-SE"></a></div>
+
+                <span class="viewbag" id="alert_log" style="margin-bottom: 10px;">@ViewBag.MensagemFail</span>
+            
+        </div>
+</div>

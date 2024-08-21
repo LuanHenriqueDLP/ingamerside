@@ -1,0 +1,22 @@
+﻿@* ESSA PAGINA VAI CONTER JAVASCRIPT *@
+
+@model Cadastro
+
+@{
+    ViewData["Title"] = "Login";
+}
+
+<div class="user-info">
+        <div class="bold margin-y">Para acessar seus dados, <br>confirme sua senha:</div>
+
+        <div class="user-info-form margin-y">
+                <form method="post" asp-action="ConfirmarSenha">
+                        <label asp-for="Senha">Senha:</label>
+                        <input class="borda-redonda input-form dark-blue-innershadow" asp-for="Senha" type="password">
+
+                        <input type="submit" class="dark-blue-innershadow" value="CONFIRMAR">
+                </form>
+        </div>
+        
+        <div class="viewbag" style="margin-bottom: 30px;">@ViewBag.Mensagem</div>
+</div>

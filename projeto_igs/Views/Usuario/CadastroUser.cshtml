@@ -1,0 +1,153 @@
+﻿@model Cadastro
+
+@{
+    ViewData["Title"] = "Cadastre-se";
+}
+<div class="user-info">
+
+    <h2 class="login-title2">Registre-se agora e aproveite nossas ofertas!</h2>
+
+        <form method="post" asp-action="CadastrarU" id="script_newuser">
+            <div class="padding-form user-info-form">
+                <span class="viewbag">@ViewBag.emailDup</span>
+
+                <div class="user3-div">
+                    <label asp-for="Nome">Nome:</label>
+                    <input type="text" class="borda-redonda input-form dark-blue-innershadow nomeU" asp-for="Nome" id="user1">
+                    
+                    <label asp-for="Email">Email:</label>
+                    <input type="email" class="borda-redonda input-form dark-blue-innershadow emailU" asp-for="Email" id="user3">
+                    
+                    <label asp-for="Senha">Senha:</label>
+                    <input type="password" class="borda-redonda input-form dark-blue-innershadow senhaU" asp-for="Senha" id="user2">
+                </div>
+
+                <div class="user3-div">
+                    <label asp-for="Endereco">Endereço:</label>
+                    <input asp-for="Endereco" class="borda-redonda input-form dark-blue-innershadow endU" id="user4">
+
+                    <label asp-for="Numero">Nº:</label>
+                    <input asp-for="Numero" class="borda-redonda input-form dark-blue-innershadow numU" id="user5">
+
+                    <label asp-for="Bairro">Bairro:</label>
+                    <input asp-for="Bairro" class="borda-redonda input-form dark-blue-innershadow bairrU" id="user6">
+                </div>
+
+                <div class="user2-div">
+                    <label asp-for="Complemento">Complemento:</label>
+                    <input asp-for="Complemento" class="borda-redonda input-form dark-blue-innershadow complU">
+                    
+                    <label asp-for="CEP">CEP:</label>
+                    <input asp-for="CEP" class="borda-redonda input-form dark-blue-innershadow CEPU" pattern="[0-9]{5}-[0-9]{3}" placeholder="00000-000" id="user7">
+                </div>
+
+                <div class="user2-div">
+                    <label asp-for="Cidade">Cidade:</label>
+                    <input asp-for="Cidade" class="borda-redonda input-form dark-blue-innershadow cidU" id="user8">
+
+                    <label asp-for="Estado">Estado:</label>
+                    <select class="borda-redonda input-form dark-blue-innershadow estU" id="user9" asp-for="Estado">
+                        <option value="">Escolha</option>
+                        <option value="Acre">AC</option>
+                        <option value="Alagoas">AL</option>
+                        <option value="Amazonas">AM</option>
+                        <option value="Amapa">AP</option>
+                        <option value="Bahia">BA</option>
+                        <option value="Ceara">CE</option>
+                        <option value="Distrito Federal">DF</option>
+                        <option value="Espirito Santo">ES</option>
+                        <option value="Goias">GO</option>
+                        <option value="Maranhao">MA</option>
+                        <option value="Minas Gerais">MG</option>
+                        <option value="Mato Grosso do Sul">MS</option>
+                        <option value="Mato Grosso">MT</option>
+                        <option value="Para">PA</option>
+                        <option value="Paraiba">PB</option>
+                        <option value="Pernambuco">PE</option>
+                        <option value="Piaui">PI</option>
+                        <option value="Parana">PR</option>
+                        <option value="Rio de Janeiro">RJ</option>
+                        <option value="Rio Grande do Norte">RN</option>
+                        <option value="Rondonia">RO</option>
+                        <option value="Roraima">RR</option>
+                        <option value="Rio Grande do Sul">RS</option>
+                        <option value="Santa Catarina">SC</option>
+                        <option value="Sergipe">SE</option>
+                        <option value="Sao Paulo">SP</option>
+                        <option value="Tocantins">TO</option>
+                    </select>
+                </div>
+
+                <input type="hidden" asp-for="Tipo" value="Usuario">
+                
+                <input class="margin-y dark-blue-innershadow"  type="submit" value="CADASTRAR">
+            </div>
+        </form>
+</div>
+
+    <script>
+        document.getElementById("script_newuser").addEventListener("submit", function validateNewUser(e)
+        {
+            var nomeUser = document.getElementById("user1").value;
+            var passUser = document.getElementById("user2").value;
+            var emailUser = document.getElementById("user3").value;
+            var endUser = document.getElementById("user4").value;
+            var numUser = document.getElementById("user5").value;
+            var bairUser = document.getElementById("user6").value;
+            var cepUser = document.getElementById("user7").value;
+            var cidUser = document.getElementById("user8").value;
+            var estUser = document.getElementById("user9").value;
+            var errors = "";
+
+            if (nomeUser.trim() === "")
+            {
+                errors = errors + "Nome.\n";
+            }
+
+            if (passUser.trim() === "")
+            {
+                errors = errors + "Senha.\n";
+            }
+
+            if (emailUser.trim() === "")
+            {
+                errors = errors + "Email.\n";
+            }
+            
+            if (endUser.trim() === "")
+            {
+                errors = errors + "Endereço.\n";
+            }
+
+            if (numUser.trim() === "")
+            {
+                errors = errors + "Número.\n";
+            }
+
+            if (bairUser.trim() === "")
+            {
+                errors = errors + "Bairro.\n";
+            }
+            
+            if (cepUser.trim() === "")
+            {
+                errors = errors + "CEP.\n";
+            }
+
+            if (cidUser.trim() === "")
+            {
+                errors = errors + "Cidade.\n";
+            }
+
+            if (estUser.trim() === "")
+            {
+                errors = errors + "Estado.\n";
+            }
+            
+            if (errors != "")
+            {
+                alert("Existem campos obrigatórios que não foram preenchidos:\n\n" + errors);
+                e.preventDefault();
+            }
+        });
+    </script>

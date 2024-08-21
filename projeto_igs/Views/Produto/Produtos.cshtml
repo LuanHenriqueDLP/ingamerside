@@ -1,0 +1,35 @@
+﻿@model List<Produto>
+
+@{
+    ViewData["Title"] = "Produtos";
+}
+
+<div class="main-70">
+    <div class="user-info">
+        <div class="padding-prd">
+            <h1 class="txt-center">Produtos</h1>
+            <br>
+
+            <p>Ficou interessado em adquirir os nossos produtos? Faça o login no site e acesse a aba "Contato" para nos mandar o seu pedido!</p>
+            <br>
+
+            <div class="product">
+                @foreach (Produto p in Model)
+                {
+                    <div class="product1">
+                        <img class="img_produto1" src="~/imagens_produtos/default-612x612.jpg">
+                        <h3>@p.Codigo - @p.NomePrd</h3>
+                        <p>@p.DescPrd</p>
+                        <p>R$@p.Preco</p>
+                        <p style="margin-top: 20px;"><a href="/Produto/BuscarID?idProduto=@p.idProduto"><img class="img-pattern" style="margin-right: 10px" title="Editar" src="~/imagens/edit.png"></a><a href="/Produto/Exclusao?idProduto=@p.idProduto"><img class="img-pattern" title="Excluir" src="~/imagens/delete.png"></a></p>
+                    </div>
+                }
+                <div class="product1">
+                    <a asp-action="AddProduto"><img class="img_produto1" src="~/imagens_produtos/addproduto.png">
+                    <input class="margin-y dark-blue-innershadow" type="button" value="NOVO PRODUTO"></a> 
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,265 @@
+C:\Users\Luan\Desktop\SENAC\Módulo 1\UC-08 Projeto integrador desenvolvedor web\projeto_etapa4\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Luan\Desktop\SENAC\Módulo 1\UC-08 Projeto integrador desenvolvedor web\projeto_etapa4\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Luan\Desktop\SENAC\Módulo 1\UC-08 Projeto integrador desenvolvedor web\projeto_etapa4\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\Luan\Desktop\SENAC\Módulo 1\UC-08 Projeto integrador desenvolvedor web\projeto_etapa4\bin\Debug\netcoreapp3.1\projeto_etapa4.exe
+C:\Users\Luan\Desktop\SENAC\Módulo 1\UC-08 Projeto integrador desenvolvedor web\projeto_etapa4\bin\Debug\netcoreapp3.1\projeto_etapa4.deps.json
+C:\Users\Luan\Desktop\SENAC\Módulo 1\UC-08 Projeto integrador desenvolvedor web\projeto_etapa4\bin\Debug\netcoreapp3.1\projeto_etapa4.runtimeconfig.json
+C:\Users\Luan\Desktop\SENAC\Módulo 1\UC-08 Projeto integrador desenvolvedor web\projeto_etapa4\bin\Debug\netcoreapp3.1\projeto_etapa4.runtimeconfig.dev.json
+C:\Users\Luan\Desktop\SENAC\Módulo 1\UC-08 Projeto integrador desenvolvedor web\projeto_etapa4\bin\Debug\netcoreapp3.1\projeto_etapa4.dll
+C:\Users\Luan\Desktop\SENAC\Módulo 1\UC-08 Projeto integrador desenvolvedor web\projeto_etapa4\bin\Debug\netcoreapp3.1\projeto_etapa4.pdb
+C:\Users\Luan\Desktop\SENAC\Módulo 1\UC-08 Projeto integrador desenvolvedor web\projeto_etapa4\bin\Debug\netcoreapp3.1\projeto_etapa4.Views.dll
+C:\Users\Luan\Desktop\SENAC\Módulo 1\UC-08 Projeto integrador desenvolvedor web\projeto_etapa4\bin\Debug\netcoreapp3.1\projeto_etapa4.Views.pdb
+C:\Users\Luan\Desktop\SENAC\Módulo 1\UC-08 Projeto integrador desenvolvedor web\projeto_etapa4\bin\Debug\netcoreapp3.1\MySqlConnector.dll
+C:\Users\Luan\Desktop\SENAC\Módulo 1\UC-08 Projeto integrador desenvolvedor web\projeto_etapa4\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Luan\Desktop\SENAC\Módulo 1\UC-08 Projeto integrador desenvolvedor web\projeto_etapa4\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Luan\Desktop\SENAC\Módulo 1\UC-08 Projeto integrador desenvolvedor web\projeto_etapa4\obj\Debug\netcoreapp3.1\projeto_etapa4.csprojAssemblyReference.cache
+C:\Users\Luan\Desktop\SENAC\Módulo 1\UC-08 Projeto integrador desenvolvedor web\projeto_etapa4\obj\Debug\netcoreapp3.1\projeto_etapa4.AssemblyInfoInputs.cache
+C:\Users\Luan\Desktop\SENAC\Módulo 1\UC-08 Projeto integrador desenvolvedor web\projeto_etapa4\obj\Debug\netcoreapp3.1\projeto_etapa4.AssemblyInfo.cs
+C:\Users\Luan\Desktop\SENAC\Módulo 1\UC-08 Projeto integrador desenvolvedor web\projeto_etapa4\obj\Debug\netcoreapp3.1\projeto_etapa4.csproj.CoreCompileInputs.cache
+C:\Users\Luan\Desktop\SENAC\Módulo 1\UC-08 Projeto integrador desenvolvedor web\projeto_etapa4\obj\Debug\netcoreapp3.1\projeto_etapa4.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Luan\Desktop\SENAC\Módulo 1\UC-08 Projeto integrador desenvolvedor web\projeto_etapa4\obj\Debug\netcoreapp3.1\projeto_etapa4.RazorAssemblyInfo.cache
+C:\Users\Luan\Desktop\SENAC\Módulo 1\UC-08 Projeto integrador desenvolvedor web\projeto_etapa4\obj\Debug\netcoreapp3.1\projeto_etapa4.RazorAssemblyInfo.cs
+C:\Users\Luan\Desktop\SENAC\Módulo 1\UC-08 Projeto integrador desenvolvedor web\projeto_etapa4\obj\Debug\netcoreapp3.1\projeto_etapa4.TagHelpers.input.cache
+C:\Users\Luan\Desktop\SENAC\Módulo 1\UC-08 Projeto integrador desenvolvedor web\projeto_etapa4\obj\Debug\netcoreapp3.1\projeto_etapa4.TagHelpers.output.cache
+C:\Users\Luan\Desktop\SENAC\Módulo 1\UC-08 Projeto integrador desenvolvedor web\projeto_etapa4\obj\Debug\netcoreapp3.1\projeto_etapa4.RazorCoreGenerate.cache
+C:\Users\Luan\Desktop\SENAC\Módulo 1\UC-08 Projeto integrador desenvolvedor web\projeto_etapa4\obj\Debug\netcoreapp3.1\Razor\Views\Contato\FaleConosco.cshtml.g.cs
+C:\Users\Luan\Desktop\SENAC\Módulo 1\UC-08 Projeto integrador desenvolvedor web\projeto_etapa4\obj\Debug\netcoreapp3.1\Razor\Views\Contato\FaleConosco2.cshtml.g.cs
+C:\Users\Luan\Desktop\SENAC\Módulo 1\UC-08 Projeto integrador desenvolvedor web\projeto_etapa4\obj\Debug\netcoreapp3.1\Razor\Views\Contato\Solicitacoes.cshtml.g.cs
+C:\Users\Luan\Desktop\SENAC\Módulo 1\UC-08 Projeto integrador desenvolvedor web\projeto_etapa4\obj\Debug\netcoreapp3.1\Razor\Views\Home\EmAlta.cshtml.g.cs
+C:\Users\Luan\Desktop\SENAC\Módulo 1\UC-08 Projeto integrador desenvolvedor web\projeto_etapa4\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Luan\Desktop\SENAC\Módulo 1\UC-08 Projeto integrador desenvolvedor web\projeto_etapa4\obj\Debug\netcoreapp3.1\Razor\Views\Produto\AddProduto.cshtml.g.cs
+C:\Users\Luan\Desktop\SENAC\Módulo 1\UC-08 Projeto integrador desenvolvedor web\projeto_etapa4\obj\Debug\netcoreapp3.1\Razor\Views\Produto\Confirmado.cshtml.g.cs
+C:\Users\Luan\Desktop\SENAC\Módulo 1\UC-08 Projeto integrador desenvolvedor web\projeto_etapa4\obj\Debug\netcoreapp3.1\Razor\Views\Produto\Produtos.cshtml.g.cs
+C:\Users\Luan\Desktop\SENAC\Módulo 1\UC-08 Projeto integrador desenvolvedor web\projeto_etapa4\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\Luan\Desktop\SENAC\Módulo 1\UC-08 Projeto integrador desenvolvedor web\projeto_etapa4\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LayoutIGS.cshtml.g.cs
+C:\Users\Luan\Desktop\SENAC\Módulo 1\UC-08 Projeto integrador desenvolvedor web\projeto_etapa4\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Luan\Desktop\SENAC\Módulo 1\UC-08 Projeto integrador desenvolvedor web\projeto_etapa4\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\MinhaConta.cshtml.g.cs
+C:\Users\Luan\Desktop\SENAC\Módulo 1\UC-08 Projeto integrador desenvolvedor web\projeto_etapa4\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Luan\Desktop\SENAC\Módulo 1\UC-08 Projeto integrador desenvolvedor web\projeto_etapa4\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Luan\Desktop\SENAC\Módulo 1\UC-08 Projeto integrador desenvolvedor web\projeto_etapa4\obj\Debug\netcoreapp3.1\projeto_etapa4.RazorTargetAssemblyInfo.cache
+C:\Users\Luan\Desktop\SENAC\Módulo 1\UC-08 Projeto integrador desenvolvedor web\projeto_etapa4\obj\Debug\netcoreapp3.1\projeto_etapa4.RazorTargetAssemblyInfo.cs
+C:\Users\Luan\Desktop\SENAC\Módulo 1\UC-08 Projeto integrador desenvolvedor web\projeto_etapa4\obj\Debug\netcoreapp3.1\projeto_etapa4.Views.pdb
+C:\Users\Luan\Desktop\SENAC\Módulo 1\UC-08 Projeto integrador desenvolvedor web\projeto_etapa4\obj\Debug\netcoreapp3.1\projeto_etapa4.csproj.CopyComplete
+C:\Users\Luan\Desktop\SENAC\Módulo 1\UC-08 Projeto integrador desenvolvedor web\projeto_etapa4\obj\Debug\netcoreapp3.1\staticwebassets\projeto_etapa4.StaticWebAssets.Manifest.cache
+C:\Users\Luan\Desktop\SENAC\Módulo 1\UC-08 Projeto integrador desenvolvedor web\projeto_etapa4\obj\Debug\netcoreapp3.1\staticwebassets\projeto_etapa4.StaticWebAssets.xml
+C:\Users\Luan\Desktop\SENAC\Módulo 1\UC-08 Projeto integrador desenvolvedor web\projeto_etapa4\obj\Debug\netcoreapp3.1\projeto_etapa4.dll
+C:\Users\Luan\Desktop\SENAC\Módulo 1\UC-08 Projeto integrador desenvolvedor web\projeto_etapa4\obj\Debug\netcoreapp3.1\projeto_etapa4.pdb
+C:\Users\Luan\Desktop\SENAC\Módulo 1\UC-08 Projeto integrador desenvolvedor web\projeto_etapa4\obj\Debug\netcoreapp3.1\projeto_etapa4.genruntimeconfig.cache
+C:\Users\Luan\Desktop\SENAC\Módulo 1\UC-08 Projeto integrador desenvolvedor web\projeto_etapa4\obj\Debug\netcoreapp3.1\Razor\Views\Produto\Edicao.cshtml.g.cs
+C:\Users\Luan\Desktop\SENAC\Módulo 1\UC-08 Projeto integrador desenvolvedor web\projeto_etapa4\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\CadastroAdmin.cshtml.g.cs
+C:\Users\Luan\Desktop\SENAC\Módulo 1\UC-08 Projeto integrador desenvolvedor web\projeto_etapa4\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\CadastroUser.cshtml.g.cs
+C:\Users\Luan\Desktop\SENAC\Módulo 1\UC-08 Projeto integrador desenvolvedor web\projeto_etapa4\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\Usuarios.cshtml.g.cs
+C:\Users\Luan\Desktop\SENAC\Módulo 1\UC-08 Projeto integrador desenvolvedor web\projeto_etapa4\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\Edicao.cshtml.g.cs
+C:\Users\Luan\Desktop\SENAC\Módulo 1\UC-08 Projeto integrador desenvolvedor web\projeto_etapa4\obj\Debug\netcoreapp3.1\Razor\Views\Home\Vitrine.cshtml.g.cs
+C:\Users\Luan\Desktop\SENAC\Módulo 1\UC-08 Projeto integrador desenvolvedor web\projeto_etapa4\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\Admin.cshtml.g.cs
+C:\Users\Luan\Desktop\SENAC\Módulo 1\UC-08 Projeto integrador desenvolvedor web\projeto_etapa4\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\Login.cshtml.g.cs
+C:\Users\Luan\Desktop\SENAC\Módulo 1\UC-08 Projeto integrador desenvolvedor web\projeto_etapa4\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\ConfirmarSenha.cshtml.g.cs
+C:\Users\Luan\Desktop\SENAC\Módulo 1\UC-08 Projeto integrador desenvolvedor web\projeto_etapa4\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\EdicaoAdmin.cshtml.g.cs
+C:\Users\Luan\Desktop\SENAC\Módulo 1\UC-08 Projeto integrador desenvolvedor web\projeto_etapa4\obj\Debug\netcoreapp3.1\Razor\Views\Home\VitrineB.cshtml.g.cs
+C:\Users\Luan\Desktop\SENAC\Módulo 1\UC-08 Projeto integrador desenvolvedor web\projeto_etapa4\obj\Debug\netcoreapp3.1\Razor\Views\Home\VitrineC.cshtml.g.cs
+C:\Users\Luan\Desktop\SENAC\Módulo 1\UC-08 Projeto integrador desenvolvedor web\projeto_etapa4\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\UsuariosE1.cshtml.g.cs
+C:\Users\Luan\Desktop\SENAC\Módulo 1\UC-08 Projeto integrador desenvolvedor web\projeto_etapa4\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\UsuariosE2.cshtml.g.cs
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 PROJETO\projeto_etapa5\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 PROJETO\projeto_etapa5\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 PROJETO\projeto_etapa5\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 PROJETO\projeto_etapa5\bin\Debug\netcoreapp3.1\projeto_etapa4.exe
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 PROJETO\projeto_etapa5\bin\Debug\netcoreapp3.1\projeto_etapa4.deps.json
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 PROJETO\projeto_etapa5\bin\Debug\netcoreapp3.1\projeto_etapa4.runtimeconfig.json
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 PROJETO\projeto_etapa5\bin\Debug\netcoreapp3.1\projeto_etapa4.runtimeconfig.dev.json
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 PROJETO\projeto_etapa5\bin\Debug\netcoreapp3.1\projeto_etapa4.dll
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 PROJETO\projeto_etapa5\bin\Debug\netcoreapp3.1\projeto_etapa4.pdb
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 PROJETO\projeto_etapa5\bin\Debug\netcoreapp3.1\projeto_etapa4.Views.dll
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 PROJETO\projeto_etapa5\bin\Debug\netcoreapp3.1\projeto_etapa4.Views.pdb
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 PROJETO\projeto_etapa5\bin\Debug\netcoreapp3.1\MySqlConnector.dll
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 PROJETO\projeto_etapa5\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 PROJETO\projeto_etapa5\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 PROJETO\projeto_etapa5\obj\Debug\netcoreapp3.1\projeto_etapa4.csprojAssemblyReference.cache
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 PROJETO\projeto_etapa5\obj\Debug\netcoreapp3.1\projeto_etapa4.AssemblyInfoInputs.cache
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 PROJETO\projeto_etapa5\obj\Debug\netcoreapp3.1\projeto_etapa4.AssemblyInfo.cs
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 PROJETO\projeto_etapa5\obj\Debug\netcoreapp3.1\projeto_etapa4.csproj.CoreCompileInputs.cache
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 PROJETO\projeto_etapa5\obj\Debug\netcoreapp3.1\projeto_etapa4.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 PROJETO\projeto_etapa5\obj\Debug\netcoreapp3.1\projeto_etapa4.RazorAssemblyInfo.cache
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 PROJETO\projeto_etapa5\obj\Debug\netcoreapp3.1\projeto_etapa4.RazorAssemblyInfo.cs
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 PROJETO\projeto_etapa5\obj\Debug\netcoreapp3.1\projeto_etapa4.TagHelpers.input.cache
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 PROJETO\projeto_etapa5\obj\Debug\netcoreapp3.1\projeto_etapa4.TagHelpers.output.cache
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 PROJETO\projeto_etapa5\obj\Debug\netcoreapp3.1\projeto_etapa4.RazorCoreGenerate.cache
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 PROJETO\projeto_etapa5\obj\Debug\netcoreapp3.1\Razor\Views\Contato\FaleConosco.cshtml.g.cs
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 PROJETO\projeto_etapa5\obj\Debug\netcoreapp3.1\Razor\Views\Contato\FaleConosco2.cshtml.g.cs
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 PROJETO\projeto_etapa5\obj\Debug\netcoreapp3.1\Razor\Views\Contato\Solicitacoes.cshtml.g.cs
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 PROJETO\projeto_etapa5\obj\Debug\netcoreapp3.1\Razor\Views\Home\EmAlta.cshtml.g.cs
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 PROJETO\projeto_etapa5\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 PROJETO\projeto_etapa5\obj\Debug\netcoreapp3.1\Razor\Views\Home\Vitrine.cshtml.g.cs
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 PROJETO\projeto_etapa5\obj\Debug\netcoreapp3.1\Razor\Views\Home\VitrineB.cshtml.g.cs
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 PROJETO\projeto_etapa5\obj\Debug\netcoreapp3.1\Razor\Views\Home\VitrineC.cshtml.g.cs
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 PROJETO\projeto_etapa5\obj\Debug\netcoreapp3.1\Razor\Views\Produto\AddProduto.cshtml.g.cs
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 PROJETO\projeto_etapa5\obj\Debug\netcoreapp3.1\Razor\Views\Produto\Confirmado.cshtml.g.cs
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 PROJETO\projeto_etapa5\obj\Debug\netcoreapp3.1\Razor\Views\Produto\Edicao.cshtml.g.cs
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 PROJETO\projeto_etapa5\obj\Debug\netcoreapp3.1\Razor\Views\Produto\Produtos.cshtml.g.cs
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 PROJETO\projeto_etapa5\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 PROJETO\projeto_etapa5\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LayoutIGS.cshtml.g.cs
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 PROJETO\projeto_etapa5\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 PROJETO\projeto_etapa5\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\Admin.cshtml.g.cs
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 PROJETO\projeto_etapa5\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\CadastroAdmin.cshtml.g.cs
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 PROJETO\projeto_etapa5\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\CadastroUser.cshtml.g.cs
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 PROJETO\projeto_etapa5\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\ConfirmarSenha.cshtml.g.cs
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 PROJETO\projeto_etapa5\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\Edicao.cshtml.g.cs
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 PROJETO\projeto_etapa5\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\EdicaoAdmin.cshtml.g.cs
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 PROJETO\projeto_etapa5\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\Login.cshtml.g.cs
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 PROJETO\projeto_etapa5\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\MinhaConta.cshtml.g.cs
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 PROJETO\projeto_etapa5\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\Usuarios.cshtml.g.cs
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 PROJETO\projeto_etapa5\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\UsuariosE1.cshtml.g.cs
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 PROJETO\projeto_etapa5\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\UsuariosE2.cshtml.g.cs
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 PROJETO\projeto_etapa5\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 PROJETO\projeto_etapa5\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 PROJETO\projeto_etapa5\obj\Debug\netcoreapp3.1\projeto_etapa4.RazorTargetAssemblyInfo.cache
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 PROJETO\projeto_etapa5\obj\Debug\netcoreapp3.1\projeto_etapa4.RazorTargetAssemblyInfo.cs
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 PROJETO\projeto_etapa5\obj\Debug\netcoreapp3.1\projeto_etapa4.Views.pdb
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 PROJETO\projeto_etapa5\obj\Debug\netcoreapp3.1\projeto_etapa4.csproj.CopyComplete
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 PROJETO\projeto_etapa5\obj\Debug\netcoreapp3.1\staticwebassets\projeto_etapa4.StaticWebAssets.Manifest.cache
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 PROJETO\projeto_etapa5\obj\Debug\netcoreapp3.1\staticwebassets\projeto_etapa4.StaticWebAssets.xml
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 PROJETO\projeto_etapa5\obj\Debug\netcoreapp3.1\projeto_etapa4.dll
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 PROJETO\projeto_etapa5\obj\Debug\netcoreapp3.1\projeto_etapa4.pdb
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 PROJETO\projeto_etapa5\obj\Debug\netcoreapp3.1\projeto_etapa4.genruntimeconfig.cache
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\bin\Debug\netcoreapp3.1\projeto_etapa4.exe
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\bin\Debug\netcoreapp3.1\projeto_etapa4.deps.json
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\bin\Debug\netcoreapp3.1\projeto_etapa4.runtimeconfig.json
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\bin\Debug\netcoreapp3.1\projeto_etapa4.runtimeconfig.dev.json
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\bin\Debug\netcoreapp3.1\projeto_etapa4.dll
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\bin\Debug\netcoreapp3.1\projeto_etapa4.pdb
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\bin\Debug\netcoreapp3.1\projeto_etapa4.Views.dll
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\bin\Debug\netcoreapp3.1\projeto_etapa4.Views.pdb
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\bin\Debug\netcoreapp3.1\MySqlConnector.dll
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\obj\Debug\netcoreapp3.1\projeto_etapa4.csprojAssemblyReference.cache
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\obj\Debug\netcoreapp3.1\projeto_etapa4.AssemblyInfoInputs.cache
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\obj\Debug\netcoreapp3.1\projeto_etapa4.AssemblyInfo.cs
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\obj\Debug\netcoreapp3.1\projeto_etapa4.csproj.CoreCompileInputs.cache
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\obj\Debug\netcoreapp3.1\projeto_etapa4.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\obj\Debug\netcoreapp3.1\projeto_etapa4.RazorAssemblyInfo.cache
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\obj\Debug\netcoreapp3.1\projeto_etapa4.RazorAssemblyInfo.cs
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\obj\Debug\netcoreapp3.1\projeto_etapa4.TagHelpers.input.cache
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\obj\Debug\netcoreapp3.1\projeto_etapa4.TagHelpers.output.cache
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\obj\Debug\netcoreapp3.1\projeto_etapa4.RazorCoreGenerate.cache
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\obj\Debug\netcoreapp3.1\Razor\Views\Contato\FaleConosco.cshtml.g.cs
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\obj\Debug\netcoreapp3.1\Razor\Views\Contato\Solicitacoes.cshtml.g.cs
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\obj\Debug\netcoreapp3.1\Razor\Views\Home\EmAlta.cshtml.g.cs
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\obj\Debug\netcoreapp3.1\Razor\Views\Home\Vitrine.cshtml.g.cs
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\obj\Debug\netcoreapp3.1\Razor\Views\Home\VitrineB.cshtml.g.cs
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\obj\Debug\netcoreapp3.1\Razor\Views\Home\VitrineC.cshtml.g.cs
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\obj\Debug\netcoreapp3.1\Razor\Views\Produto\AddProduto.cshtml.g.cs
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\obj\Debug\netcoreapp3.1\Razor\Views\Produto\Confirmado.cshtml.g.cs
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\obj\Debug\netcoreapp3.1\Razor\Views\Produto\Edicao.cshtml.g.cs
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\obj\Debug\netcoreapp3.1\Razor\Views\Produto\Produtos.cshtml.g.cs
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LayoutIGS.cshtml.g.cs
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\Admin.cshtml.g.cs
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\CadastroAdmin.cshtml.g.cs
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\CadastroUser.cshtml.g.cs
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\ConfirmarSenha.cshtml.g.cs
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\Edicao.cshtml.g.cs
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\EdicaoAdmin.cshtml.g.cs
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\Login.cshtml.g.cs
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\MinhaConta.cshtml.g.cs
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\Usuarios.cshtml.g.cs
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\obj\Debug\netcoreapp3.1\projeto_etapa4.RazorTargetAssemblyInfo.cache
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\obj\Debug\netcoreapp3.1\projeto_etapa4.RazorTargetAssemblyInfo.cs
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\obj\Debug\netcoreapp3.1\projeto_etapa4.Views.pdb
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\obj\Debug\netcoreapp3.1\projeto_etapa4.csproj.CopyComplete
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\obj\Debug\netcoreapp3.1\staticwebassets\projeto_etapa4.StaticWebAssets.Manifest.cache
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\obj\Debug\netcoreapp3.1\staticwebassets\projeto_etapa4.StaticWebAssets.xml
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\obj\Debug\netcoreapp3.1\projeto_etapa4.dll
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\obj\Debug\netcoreapp3.1\projeto_etapa4.pdb
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\obj\Debug\netcoreapp3.1\projeto_etapa4.genruntimeconfig.cache
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\bin\Debug\netcoreapp3.1\Serilog.dll
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\bin\Debug\netcoreapp3.1\Serilog.Extensions.Logging.dll
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\bin\Debug\netcoreapp3.1\Serilog.Extensions.Logging.File.dll
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\bin\Debug\netcoreapp3.1\Serilog.Formatting.Compact.dll
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\bin\Debug\netcoreapp3.1\Serilog.Sinks.Async.dll
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\bin\Debug\netcoreapp3.1\Serilog.Sinks.File.dll
+C:\Users\Luan\Desktop\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\bin\Debug\netcoreapp3.1\Serilog.Sinks.RollingFile.dll
+D:\Salvar arquivos\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\Salvar arquivos\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\bin\Debug\netcoreapp3.1\appsettings.json
+D:\Salvar arquivos\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\bin\Debug\netcoreapp3.1\projeto_etapa4.StaticWebAssets.xml
+D:\Salvar arquivos\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\bin\Debug\netcoreapp3.1\projeto_etapa4.exe
+D:\Salvar arquivos\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\bin\Debug\netcoreapp3.1\projeto_etapa4.deps.json
+D:\Salvar arquivos\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\bin\Debug\netcoreapp3.1\projeto_etapa4.runtimeconfig.json
+D:\Salvar arquivos\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\bin\Debug\netcoreapp3.1\projeto_etapa4.runtimeconfig.dev.json
+D:\Salvar arquivos\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\bin\Debug\netcoreapp3.1\projeto_etapa4.dll
+D:\Salvar arquivos\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\bin\Debug\netcoreapp3.1\projeto_etapa4.pdb
+D:\Salvar arquivos\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\bin\Debug\netcoreapp3.1\projeto_etapa4.Views.dll
+D:\Salvar arquivos\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\bin\Debug\netcoreapp3.1\projeto_etapa4.Views.pdb
+D:\Salvar arquivos\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+D:\Salvar arquivos\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Salvar arquivos\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+D:\Salvar arquivos\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\Salvar arquivos\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\bin\Debug\netcoreapp3.1\MySqlConnector.dll
+D:\Salvar arquivos\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\bin\Debug\netcoreapp3.1\Serilog.dll
+D:\Salvar arquivos\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\bin\Debug\netcoreapp3.1\Serilog.Extensions.Logging.dll
+D:\Salvar arquivos\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\bin\Debug\netcoreapp3.1\Serilog.Extensions.Logging.File.dll
+D:\Salvar arquivos\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\bin\Debug\netcoreapp3.1\Serilog.Formatting.Compact.dll
+D:\Salvar arquivos\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\bin\Debug\netcoreapp3.1\Serilog.Sinks.Async.dll
+D:\Salvar arquivos\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\bin\Debug\netcoreapp3.1\Serilog.Sinks.File.dll
+D:\Salvar arquivos\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\bin\Debug\netcoreapp3.1\Serilog.Sinks.RollingFile.dll
+D:\Salvar arquivos\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+D:\Salvar arquivos\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+D:\Salvar arquivos\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\obj\Debug\netcoreapp3.1\projeto_etapa4.csproj.AssemblyReference.cache
+D:\Salvar arquivos\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\obj\Debug\netcoreapp3.1\projeto_etapa4.GeneratedMSBuildEditorConfig.editorconfig
+D:\Salvar arquivos\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\obj\Debug\netcoreapp3.1\projeto_etapa4.AssemblyInfoInputs.cache
+D:\Salvar arquivos\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\obj\Debug\netcoreapp3.1\projeto_etapa4.AssemblyInfo.cs
+D:\Salvar arquivos\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\obj\Debug\netcoreapp3.1\projeto_etapa4.csproj.CoreCompileInputs.cache
+D:\Salvar arquivos\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\obj\Debug\netcoreapp3.1\projeto_etapa4.MvcApplicationPartsAssemblyInfo.cache
+D:\Salvar arquivos\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\obj\Debug\netcoreapp3.1\projeto_etapa4.RazorAssemblyInfo.cache
+D:\Salvar arquivos\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\obj\Debug\netcoreapp3.1\projeto_etapa4.RazorAssemblyInfo.cs
+D:\Salvar arquivos\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\obj\Debug\netcoreapp3.1\projeto_etapa4.TagHelpers.input.cache
+D:\Salvar arquivos\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\obj\Debug\netcoreapp3.1\projeto_etapa4.TagHelpers.output.cache
+D:\Salvar arquivos\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\obj\Debug\netcoreapp3.1\projeto_etapa4.RazorCoreGenerate.cache
+D:\Salvar arquivos\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\obj\Debug\netcoreapp3.1\Razor\Views\Contato\FaleConosco.cshtml.g.cs
+D:\Salvar arquivos\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\obj\Debug\netcoreapp3.1\Razor\Views\Contato\Solicitacoes.cshtml.g.cs
+D:\Salvar arquivos\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\obj\Debug\netcoreapp3.1\Razor\Views\Home\EmAlta.cshtml.g.cs
+D:\Salvar arquivos\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+D:\Salvar arquivos\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\obj\Debug\netcoreapp3.1\Razor\Views\Home\Vitrine.cshtml.g.cs
+D:\Salvar arquivos\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\obj\Debug\netcoreapp3.1\Razor\Views\Home\VitrineB.cshtml.g.cs
+D:\Salvar arquivos\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\obj\Debug\netcoreapp3.1\Razor\Views\Home\VitrineC.cshtml.g.cs
+D:\Salvar arquivos\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\obj\Debug\netcoreapp3.1\Razor\Views\Produto\AddProduto.cshtml.g.cs
+D:\Salvar arquivos\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\obj\Debug\netcoreapp3.1\Razor\Views\Produto\Confirmado.cshtml.g.cs
+D:\Salvar arquivos\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\obj\Debug\netcoreapp3.1\Razor\Views\Produto\Edicao.cshtml.g.cs
+D:\Salvar arquivos\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\obj\Debug\netcoreapp3.1\Razor\Views\Produto\Produtos.cshtml.g.cs
+D:\Salvar arquivos\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+D:\Salvar arquivos\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LayoutIGS.cshtml.g.cs
+D:\Salvar arquivos\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\Salvar arquivos\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\Admin.cshtml.g.cs
+D:\Salvar arquivos\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\CadastroAdmin.cshtml.g.cs
+D:\Salvar arquivos\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\CadastroUser.cshtml.g.cs
+D:\Salvar arquivos\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\ConfirmarSenha.cshtml.g.cs
+D:\Salvar arquivos\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\Edicao.cshtml.g.cs
+D:\Salvar arquivos\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\EdicaoAdmin.cshtml.g.cs
+D:\Salvar arquivos\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\Login.cshtml.g.cs
+D:\Salvar arquivos\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\MinhaConta.cshtml.g.cs
+D:\Salvar arquivos\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\Usuarios.cshtml.g.cs
+D:\Salvar arquivos\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+D:\Salvar arquivos\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+D:\Salvar arquivos\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\obj\Debug\netcoreapp3.1\projeto_etapa4.RazorTargetAssemblyInfo.cache
+D:\Salvar arquivos\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\obj\Debug\netcoreapp3.1\projeto_etapa4.RazorTargetAssemblyInfo.cs
+D:\Salvar arquivos\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\obj\Debug\netcoreapp3.1\projeto_etapa4.Views.pdb
+D:\Salvar arquivos\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\obj\Debug\netcoreapp3.1\staticwebassets\projeto_etapa4.StaticWebAssets.Manifest.cache
+D:\Salvar arquivos\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\obj\Debug\netcoreapp3.1\staticwebassets\projeto_etapa4.StaticWebAssets.Pack.cache
+D:\Salvar arquivos\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.projeto_etapa4.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Salvar arquivos\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.build.projeto_etapa4.props
+D:\Salvar arquivos\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.buildMultiTargeting.projeto_etapa4.props
+D:\Salvar arquivos\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.buildTransitive.projeto_etapa4.props
+D:\Salvar arquivos\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\obj\Debug\netcoreapp3.1\projeto_.3BE5CFFF.Up2Date
+D:\Salvar arquivos\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\obj\Debug\netcoreapp3.1\projeto_etapa4.dll
+D:\Salvar arquivos\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\obj\Debug\netcoreapp3.1\projeto_etapa4.pdb
+D:\Salvar arquivos\SENAC\Módulo 2\UC-08 Projeto integrador desenvolvedor web\projeto_etapa5\obj\Debug\netcoreapp3.1\projeto_etapa4.genruntimeconfig.cache

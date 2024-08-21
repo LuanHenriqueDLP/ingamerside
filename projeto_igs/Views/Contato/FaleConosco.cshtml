@@ -1,0 +1,38 @@
+﻿@model Solicitacao
+
+@{
+    ViewData["Title"] = "Fale conosco";
+}
+
+<div class="main-70">
+    <div class="padding-form user-info">
+        <h1 class="text_shadow">Formulário de Pedido</h1>
+
+    <div class="aviso-senha1">
+        <p>Informe o código do produto que deseja adquirir e escreva na caixa de texto o tamanho e quaisquer informações adicionais que achar pertinente. Após recebermos sua solicitação de pedido de compra, nós iremos lhe enviar um e-mail para confirmarmos a disponibilidade do item e combinarmos a forma de pagamento, e então nosso processo interno entra em ação para garantir uma experiência satisfatória ao cliente.</p>
+        
+        <p>Caso deseje entrar em contato por outro motivo, preencha apenas "0000" na opção "Código do produto" e descreva o motivo de contato na caixa de observações.</p>
+    </div>
+
+        <form method="post" id="script_addsolicit">
+            <div class="user-info-form">
+                <div class="form-column">
+                    <div class="padding">
+                        <label for="solic1" >Código do produto:</label>
+                        <input type="text" class="borda-redonda input-form dark-blue-innershadow" id="solic1" asp-for="Codigo">
+                    </div>
+
+                    <div class="padding">
+                        <label for="solic2">Observações:</label>
+                        <textarea class="borda-redonda input-form dark-blue-innershadow" id="solic2" asp-for="txtBox" rows="6" cols="42" placeholder="Descreva aqui qualquer dúvida ou informação referente ao produto ou outro assunto."></textarea>
+                    </div>
+                </div>
+
+                <input type="hidden" asp-for="idCadastro">
+                <div>
+                    <input type="submit" class="margin-y dark-blue-innershadow" value="ENVIAR PEDIDO">
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

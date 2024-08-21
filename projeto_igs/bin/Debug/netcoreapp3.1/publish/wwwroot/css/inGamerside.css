@@ -1,0 +1,589 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    height: 15%;
+    background-color: rgb(17, 0, 31);
+}
+
+.margin {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+
+body {
+    display: flex;
+	flex-direction: column;
+    background-color: rgb(43, 0, 35);
+    color: white;
+}
+
+main ul.nav-bar {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 125px;
+}
+
+main {
+    width: 50%;
+    margin: auto;
+    margin-top: 15%;
+    text-align: justify;
+}
+
+footer {
+    min-height: 4%;
+    border-top: rgb(50, 207, 255);
+    border-top-width: 1px;
+    border-top-style: ridge;
+    border-bottom: 0.5px ridge rgb(50, 207, 255);
+    position: sticky;
+    top: 96%;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin-top: 4%;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    background-color: rgb(17, 0, 31);
+    color: white;
+}
+
+footer a {
+    color: aqua;
+}
+
+figure {
+    display: inline-block;
+    text-align: center;
+}
+
+figure img {
+    vertical-align: top;
+}
+
+figure figcaption {
+    margin-top: 15px;
+}
+
+header a {
+    color: rgb(50, 207, 255);
+    font-weight: bold;
+}
+
+
+a {transition: 0.5s ease;}
+
+a:link {text-decoration: none;}
+a:visited {text-decoration: none;}
+header a:hover, nav a:hover, footer a:hover {font-size: 17px; text-shadow: 0 0 10px rgba(175, 175, 175, 0.7); text-decoration: none;}
+
+nav a:hover {background: linear-gradient(to bottom, rgba(50, 207, 255) 0%, rgba(50, 207, 255, 0.3) 10%, rgba(50, 207, 255, 0.2) 25%, rgba(50, 207, 255, 0.1) 50%, rgba(50, 207, 255, 0.05) 75%, rgba(50, 207, 255, 0) 100%);}
+
+a:active {text-decoration: none;}
+
+
+ul {
+    list-style-type: none;
+    margin-left: -40px;
+}
+
+li a {
+    border-right: 2px solid rgb(50, 207, 255);
+    display: block;
+    color: rgb(50, 207, 255);
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+}
+
+.sem-borda {
+    border: 0;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form_container {
+    display: flex;
+    align-items: center;
+    height: 35px;
+    border-radius: 15px;
+    padding: 0 5px;
+    border: 1px solid rgb(50, 207, 255);
+    box-shadow: inset 0px 0px 8px rgb(50, 207, 255);
+}
+
+input::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+    font-style: italic;
+}
+
+textarea::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+    font-style: italic;
+}
+
+.bg-transp {
+    background-color: transparent;
+}
+
+.buttonimg {
+    width: 19px;
+    height: 19px;
+    padding: 2px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.borda-redonda {
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.563);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.login-title {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.login-title2 {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.form-button {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 206px;
+}
+
+.form-button2 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.foot-text {
+    margin-left: 10px;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-weight: bold;
+    background-color: rgb(17, 0, 31);
+    border-top: 2px solid rgb(50, 207, 255);
+    border-bottom: 1px solid rgb(50, 207, 255);
+    height: 50px;
+}
+
+.product1 {
+    width: 210px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px 0;
+}
+
+.product {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.img_produto {
+    display: flex;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+    border: 2px solid rgb(50, 207, 255);
+    box-shadow: 0px 0px 10px rgb(50, 207, 255);
+    border-radius: 10%;
+}
+
+.img_produto1 {
+    width: 150px;
+    height: 150px;
+    border: 2px solid rgb(50, 207, 255);
+    box-shadow: 0px 0px 10px rgb(50, 207, 255);
+    border-radius: 10%;
+}
+
+.t1 {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    border-radius: 50%; 
+    border: 1px solid rgb(0, 0, 0);
+    margin-right: 10px;
+}
+
+.img-rec {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.recomendados {
+    margin-left: 27px;
+    margin-top: 14px;
+}
+
+.link-style {
+    color: white;
+    transition: 0.3s;
+}
+
+.link-style:hover {text-shadow: 0 0 20px white; font-size: 18px; text-decoration: underline 2px; text-underline-offset: 3px;}
+
+th, td {
+    border-collapse: collapse;
+    padding: 20px 30px;
+    text-align: center;
+    width: fit-content;
+    
+}
+
+.img-pattern {
+    width: 20px;
+    height: 20px;
+}
+
+.table-usu {
+    width: fit-content;
+    padding: 20px;
+    border-collapse: collapse;
+}
+
+.table-sol {
+    width: fit-content;
+    padding: 20px;
+    border-collapse: collapse;
+}
+
+.border {
+    border-top: 1px solid rgb(50, 207, 255);
+    box-shadow: 0px 0px 10px rgb(50, 207, 255);
+}
+
+.viewbag {
+    font-size: 14px;
+    font-weight: normal;
+    color: red;
+}
+
+.modal-table {
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    animation: fadeIn 0.5s forwards;
+    z-index: 1;
+}
+
+.modal-content {
+    position: absolute;
+    width: 300px;
+    height: fit-content;
+    text-align: justify;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgb(206, 26, 230);
+    border: 1px solid rgb(206, 26, 230);
+    background-color: rgb(17, 0, 31);
+    z-index: 1;
+}
+
+.modal_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+    visibility: visible;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.modalOff {
+    opacity: 0;
+    visibility: hidden;
+}
+
+@keyframes fadeIn {
+    from {opacity: 0}
+    to {opacity: 1}
+}
+
+.modal {
+    background-color: rgb(17, 0, 31);
+    box-shadow: 0 0 20px rgb(206, 26, 230);
+    border: 1px solid rgb(206, 26, 230);
+    border-radius: 20px;
+    position: relative;
+    width: 500px;
+    height: fit-content;
+    padding: 10px 20px;
+    animation: fadeIn 1s forwards;
+    z-index: 1;
+}
+
+.modal-footer {
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+}
+
+.modal-close-btn {
+    padding: 10px;
+    text-decoration: none;
+    background-color: whitesmoke;
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.text_shadow {
+    text-shadow: 1px 1px 3px rgb(175, 175, 175);
+}
+
+input[type=text], input[type=email], input[type=password], input[type=number], input[type=search] {
+    outline: none;
+}
+
+input[type=search] {
+    border: none;
+    color: white;
+}
+
+input::-webkit-inner-spin-button, input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.input-form {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+.dark-blue-innershadow {
+    background-color: rgb(17, 0, 31);
+    color: white;
+    border: 1px solid rgb(50, 207, 255);
+    box-shadow: inset 0px 0px 8px rgb(50, 207, 255);
+}
+
+.margin-y {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.row-flex-form {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 15px;
+}
+
+.column-flex-form {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 15px;
+}
+
+textarea {
+    border: none;
+    outline: none;
+    resize: none;
+}
+
+input[type=submit], input[type=button] {
+    cursor: pointer;
+    background-color: rgb(206, 26, 230);
+    border: 1px solid rgb(50, 207, 255);
+    border-radius: 15px;
+    color: white;
+    font-weight: 800;
+    width: fit-content;
+    padding: 10px;
+}
+
+button[type=button] {
+    cursor: pointer;
+    background-color: rgb(206, 26, 230);
+    border: 1px solid rgb(50, 207, 255);
+    border-radius: 15px;
+    color: white;
+    font-weight: 800;
+    width: fit-content;
+    padding: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.user-info {
+    width: fit-content;
+    padding: 20px;
+    border-radius: 50px;
+    border: 1px solid rgb(50, 207, 255);
+    color: white;
+    text-align: center;
+    background-color: rgb(17, 0, 31);
+    box-shadow: 0px 0px 20px rgb(50, 207, 255);
+}
+
+.main-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user-info-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
+}
+
+.input-def{
+    width: 150px;
+}
+
+.padding {
+    padding: 10px;
+}
+
+.padding-prd {
+    padding: 20px;
+}
+
+.padding-form {
+    padding: 20px;
+}
+
+.form-column {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: fit-content;
+}
+
+.user3-div {
+    padding: 20px;
+}
+
+.user2-div {
+    width: 550px;
+    padding: 20px;
+}
+
+.nomeU, .senhaU {
+   width: 80px;
+}
+
+.emailU, .endU, .complU {
+    width: 180px;
+}
+
+.numU {
+    width: 37px;
+}
+
+.bairrU {
+    width: 120px;
+}
+
+.CEPU {
+    width: 65px;
+}
+
+.cidU, .estU {
+    width: 160px;
+}
+
+.aviso-senha {
+    width: 400px;
+    text-wrap: wrap;
+    text-align: justify;
+    padding: 20px 30px;
+}
+
+.aviso-senha1 {
+    width: 800px;
+    text-wrap: wrap;
+    text-align: justify;
+    padding: 20px 30px;
+}
+
+select {
+    outline: 0;
+}
+
+.inl-flex-start {
+    display: inline-flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+}
+
+.inl-flex-start-just {
+    display: inline-flex;
+    flex-direction: column;
+    text-align: justify;
+    width: 100%;
+}
+
+input:disabled {
+    background-color: rgb(50, 46, 54);
+    font-style: italic;
+}
+
+.txt-center {
+    text-align: center;
+}
+
+textarea {
+    vertical-align: middle;
+}

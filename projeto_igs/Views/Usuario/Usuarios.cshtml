@@ -1,0 +1,116 @@
+@model List<Cadastro>
+
+@{
+    ViewData["Title"] = "Cadastros";
+}
+
+<div class="user-info">
+<h1>Cadastros</h1>
+
+<span class="viewbag">@ViewBag.DeleteFail</span>
+<span class="viewbag">@ViewBag.DeleteFail_1</span>
+
+    <div class="table-usu">
+        <table>
+            <div class="border">
+                <thead>
+                    <tr>
+                        <th>Nº</th>
+                        <th>Nome</th>
+                        <th>Email</th>
+                        <th>Endereço</th>
+                        <th>Tipo</th>
+                        <th><img class="img-pattern" src="~/imagens/delete.png"></th>
+                    </tr>
+                </thead>
+            </div>
+            
+        @foreach (Cadastro c in Model)
+            {
+            <tbody>
+                <tr>
+                    <td>@c.idCadastro</td>
+                    <td>@c.Nome</td>
+                    <td>@c.Email</td>
+                    <td>
+                        <button class="openModal" id="openModal">
+                            <img class="img-pattern" title="Expandir" src="~/imagens/ext_link.png">
+                        </button>
+                        @if (c.Endereco == null) {
+                            <div class="modal-table idModal" id="idModal">
+                                <div class="modal-content">
+                                    <span>Nenhum endereço cadastrado.</span>
+                                <br><br><br>
+                                <div class="modal-footer">
+                                        <button class="modal-close-btn closeModal" id="closeModal">FECHAR</button>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                        else
+                        {
+                            <div class="modal-table idModal" id="idModal">
+                                <div class="modal-content">
+                                    @if (c.Complemento == null)
+                                    {
+                                        @c.Endereco; @ViewBag.virgula;
+                                        @c.Numero; @ViewBag.hifen;
+                                        @c.Bairro; @ViewBag.virgula;
+                                        @c.Cidade; @ViewBag.hifen;
+                                        @c.Estado; @ViewBag.virgula;
+                                        @c.CEP; 
+                                    }
+                                    else
+                                    {
+                                        @c.Endereco; @ViewBag.virgula;
+                                        @c.Numero; @ViewBag.hifen;
+                                        @c.Bairro; @ViewBag.virgula;
+                                        @c.Cidade; @ViewBag.hifen;
+                                        @c.Estado; @ViewBag.virgula;
+                                        @c.CEP; @ViewBag.hifen;
+                                        @c.Complemento;
+                                    }
+                                    <br><br><br>
+                                    <div class="modal-footer">
+                                        <button class="modal-close-btn closeModal" id="closeModal">FECHAR</button>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    </td>
+                    <td>@c.Tipo</td>
+                    <td><a href="/Usuario/Exclusao?idCadastro=@c.idCadastro"><img class="img-pattern" title="Excluir" src="~/imagens/delete.png"></a></td>
+                </tr>
+            </tbody>
+            }
+        </table>
+    </div>
+</div>
+
+    
+    <script>
+        var modais = document.querySelectorAll(".idModal");
+        var openBtns = document.querySelectorAll(".openModal");
+        var closeBtns = document.querySelectorAll(".closeModal");
+
+        openBtns.forEach(function (button, index) {
+            button.addEventListener("click", function () {
+                modais[index].style.display = "block";
+            });
+        });
+
+        closeBtns.forEach(function (closeButton, index) {
+            closeButton.addEventListener("click", function () {
+                modais[index].style.display = "none";
+            });
+        });
+
+        window.addEventListener("click", function (event) {
+            modals.forEach(function (modal) {
+                if (event.target == modal)
+                {
+                    modal.style.display = "none";
+                }
+            });
+        });
+    </script>

@@ -1,0 +1,103 @@
+@using Microsoft.AspNetCore.Http;
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="~/css/inGamerside.css">
+    <title>inGamerside - @ViewData["Title"]</title>
+</head>
+
+<body>
+    <header>
+        <div class="margin">
+            <div class="flex-center">
+                <a asp-controller="Home" asp-action="Index"><img src="~/imagens/logo.png" width="125" height="105"></a>
+            </div>
+            <div class="flex-center">
+                <form class="form_container" method="get" asp-controller="Home" asp-action="Buscar">
+                    <input class="borda-redonda bg-transp" type="search" placeholder="O que está procurando?" name="Busca" size="75">
+                    <button class="button" type="submit">
+                        <img class="buttonimg" src="~/imagens/lupa.png">
+                    </button>
+                </form>
+            </div>
+            <div class="flex-center">
+                <div class="flex-center">
+                    <a asp-controller="Usuario" asp-action="ConfirmarSenha">
+                        <img src="~/imagens/minha conta.png" hspace="10" width="35" height="35">
+                    </a>
+                    <a asp-controller="Usuario" asp-action="ConfirmarSenha">Minha Conta</a>
+                </div>
+                <div style="margin-left: 25px;">
+                    @if (Context.Session.GetInt32("idCadastro") == null) // VALIDAÇÃO DE USUÁRIO LOGADO
+                    {
+                        <a asp-controller="Usuario" asp-action="Login" >Entrar / Cadastrar-se</a>
+                    }
+                    else
+                    {
+                        @if (Context.Session.GetString("Tipo") == "Admin")
+                        {
+                            <a asp-controller="Usuario" asp-action="Admin" >Logout / Admin</a>
+                        }
+                        else
+                        {
+                            <a asp-controller="Usuario" asp-action="Logout" >Logout</a>
+                        }
+                    }
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <main>
+        <nav>
+            <ul class="nav-bar">
+                @if (Context.Session.GetInt32("idCadastro") == null) // VALIDAÇÃO DE USUÁRIO LOGADO
+                {
+                    <li><a asp-controller="Home" asp-action="Index">Home</a></li>
+                    <li><a asp-controller="Home" asp-action="EmAlta">Recomendados</a></li>
+                    <li><a asp-controller="Home" asp-action="Vitrine">Produtos</a></li>               
+                    <li><a asp-controller="Contato" class="sem-borda" asp-action="FaleConosco">Contato</a></li>
+                }
+                else
+                {
+                    @if (Context.Session.GetString("Tipo") == "Admin")
+                    {
+                        <li><a asp-controller="Home" asp-action="Index">Home</a></li>
+                        <li><a asp-controller="Home" asp-action="EmAlta">Recomendados</a></li>
+                        <li><a asp-controller="Produto" asp-action="Produtos">Produtos</a></li>
+                        <li><a asp-controller="Contato" asp-action="Solicitacoes">Solicitações</a></li>
+                        <li><a asp-controller="Usuario" asp-action="Usuarios">Lista de Cadastros</a></li>
+                        <li><a asp-controller="Contato" class="sem-borda" asp-action="FaleConosco">Contato</a></li>
+                    }
+                    else
+                    {
+                        <li><a asp-controller="Home" asp-action="Index">Home</a></li>
+                        <li><a asp-controller="Home" asp-action="EmAlta">Recomendados</a></li>
+                        <li><a asp-controller="Home" asp-action="Vitrine">Produtos</a></li>
+                        <li><a asp-controller="Contato" class="sem-borda" asp-action="FaleConosco">Contato</a></li>
+                    }
+                }
+            </ul>
+        </nav>
+        <div class="main-center">
+            @RenderBody()
+        </div>
+    </main>
+
+    <footer>
+        <div class="foot-text">
+            &copy; Copyright e informações de contato - <a asp-controller="Contato" asp-action="FaleConosco">Fale conosco</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js"></script>
+    <script src="~/js/script.js"></script>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
